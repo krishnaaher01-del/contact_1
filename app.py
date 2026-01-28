@@ -7,7 +7,7 @@ app = Flask(__name__)
 db = mysql.connector.connect(
     host=os.environ.get("mysql.railway.internal"),
     user=os.environ.get("root"),
-    password=os.environ.get("ZiJhZcWdzikRmvpOOFDysxPNYNClVUFW"),
+    password=os.environ.get("CEOawZKrTTHADdFkcCxywMhwzoPvGzJd"),
     database=os.environ.get("railway"),
     port=os.environ.get("3306")
 )
@@ -33,3 +33,4 @@ def contact():
 
 if __name__ == "__main__":
     app.run()
+
